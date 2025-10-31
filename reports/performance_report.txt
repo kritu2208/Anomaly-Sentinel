@@ -1,0 +1,25 @@
+
+    ANOMALY DETECTION PERFORMANCE REPORT
+    ====================================
+    
+    Dataset Statistics:
+    - Total data points: 9940
+    - Time period: 2024-01-01 00:01:00 to 2024-01-01 02:46:39
+    
+    Detection Results:
+    - Isolation Forest anomalies: 297 (3.0%)
+    - LSTM anomalies: 440 (4.4%)
+    - Anomalies detected by both methods: 7 (0.1%)
+    
+    Key Insights:
+    1. The LSTM method detected 143 more anomalies than Isolation Forest
+    2. Only 7 anomalies were detected by both methods (1.6% agreement)
+    3. This suggests the methods are complementary:
+       - Isolation Forest finds point anomalies (statistical outliers)
+       - LSTM finds contextual anomalies (pattern deviations)
+    
+    Recommendation:
+    For production use, consider combining both methods:
+    - Use Isolation Forest for real-time point anomaly detection (low computational cost)
+    - Use LSTM for periodic deep analysis of temporal patterns (higher accuracy)
+    
