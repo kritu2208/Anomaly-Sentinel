@@ -8,10 +8,8 @@
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
 - [Project Structure](#-project-structure)
-- [Roadmap](#-roadmap)
 - [Features](#-features)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
+
 
 ## 🎯 Project Overview
 
@@ -52,13 +50,13 @@ Anomaly Sentinel is a production-grade machine learning system that predicts inf
 git clone <your-repo-url>
 cd anomaly-sentinel
 
-# Create virtual environment
+### Create virtual environment
 python -m venv venv
 
 # Activate environment
-# On macOS/Linux:
+### On macOS/Linux:
 source venv/bin/activate
-# On Windows:
+### On Windows:
 venv\Scripts\activate
 
 ## 📁 Project Structure
